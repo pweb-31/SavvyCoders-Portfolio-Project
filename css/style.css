@@ -1,8 +1,16 @@
   body{
-    background-color: lightblue;
+    background-color: lightgray ;
   }
   h1{
     color: "9569ff";
+    text-align: center;
+    font-family: verdana;
+    font-weight: bolder;
+  }
+  h2{
+    color:black;
+    text-align: center;
+    font-family: verdana;
   }
   img{
     width:45vw;
@@ -11,20 +19,44 @@
   p{
     color:green;
   }
+  .homepage-text{
+    color:black;
+    font-size: 150%;
+    font-family: verdana;
+    text-align: center;
+    text-shadow: 5px;
+  }
   .list-item{
     display: inline-block;
+    text-align: center;
+    font-family: verdana;
   }
   #nav-list{
+    display: inline-flex;
+    text-align: center;
     list-style-type: none;
+    text-indent: 20px;
+    font-family: verdana;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    }
+  #nav-list > li:last-child> a{
+      color:lightgray;
+      text-decoration: none;
+  }
+  .big{
+    font-size: 200%;
+    text-align: center;
   }
   nav{
     width: 100vw;
-    background-color: #07c4dd;
+    background-color: black;
   }
   iframe{
     width:100%;
     height:50vh;
   }
   footer{
-    
+
   }
