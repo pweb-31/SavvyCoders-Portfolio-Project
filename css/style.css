@@ -83,9 +83,14 @@ table {
   }
   .content{
     font-family: verdana, sans-serif;
-    width: 90%;
-    margin: auto;
+    position: absolute;
+    width: 600px;
   }
+	.container{
+		position: relative;
+		max-width: 960px;
+		margin: 0 auto;
+	}
   .big{
     font-size: 200%;
     text-align: center;
@@ -122,4 +127,4 @@ table {
   #nav-list > li:last-child> a{
       color:lightgray;
       text-decoration: none;
-  }
+		}
