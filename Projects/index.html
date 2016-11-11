@@ -9,5 +9,38 @@
 </head>
 <body>
 
+      <script type="text/javascript">
+        var favoriteCountry = prompt( "What is your favorite country?" );
+
+        var handleCountry = function( country ){
+          if( country === "USA" ){
+            alert( "Sweet!" );
+          }
+          else if(country === "Mexico" || "Venezuela"){
+            alert( "Esta Bien!" );
+          }
+          else if(country === "Canada"){
+            alert( "Good job!" );
+          }
+          else {
+            alert( "Looks like you need more freedom" );
+          }
+        };
+
+        var freedomCheck = function( country ){
+          if( country ){
+            handleCountry( country );
+          }
+          else{
+            var newFavoriteCountry = prompt( "Dude, give me your favorite country!");
+
+            freedomCheck( newFavoriteCountry);
+          }
+        };
+
+        freedomCheck( favoriteCountry );
+
+        </script>
+
 </body>
 </html>
