@@ -9,21 +9,31 @@
 </head>
 <body>
 
+      <div id="output">
+      </div>
+
       <script type="text/javascript">
+        var name = prompt( "What's Your Name?")
+        var output = document.querySelector( "#output");
+
+        output.innerHTML =
+
+        output.textContent = "Hello " + name;
+
         var favoriteCountry = prompt( "What is your favorite country?" );
 
         var handleCountry = function( country ){
           if( country === "USA" ){
-            alert( "Sweet!" );
+            output.textContent += ( " Sweet!" );
           }
           else if(country === "Mexico" || "Venezuela"){
-            alert( "Esta Bien!" );
+            output.textContent += ( " Esta Bien!" );
           }
           else if(country === "Canada"){
-            alert( "Good job!" );
+            output.textContent += ( " Good job!" );
           }
           else {
-            alert( "Looks like you need more freedom" );
+            output.textContent += ( " Looks like you need more freedom" );
           }
         };
 
