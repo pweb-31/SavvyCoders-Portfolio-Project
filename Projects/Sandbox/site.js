@@ -17,6 +17,20 @@
       }
   } );
 
+  $title.animate ( {
+      "font-size": "200%"
+  }, {
+      "duration": 4000,
+      "complete": function() {
+        $title.css ({
+          "color": "black",
+          "text-align": "center",
+          "font-weight": "bolder"
+        } )
+      }
+  } );
+
+
   $title.text ( "An even sweeter header!" );
   $output.html ( "<ol><li>step one</li><li>step two</li><li>step three!</li></ol>" );
 
