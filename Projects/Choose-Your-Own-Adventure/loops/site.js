@@ -24,12 +24,12 @@ outputList += "</ul>";
 output.innerHTML = outputList;
 
 //rock, paper, scissors
+var winner = "computer";
 
 var runRound = function(){
 	var userChoice = prompt( "what would you like to play?  Rock, paper or scissors?")
 	var rng = Math.random();
 	var computerChoice = "Scissors";
-	var winner = "computer";
 
 	if( rng < 0.33 ){
 		computerChoice = "Rock";
@@ -64,3 +64,6 @@ while( roundCounter <= 5){
 
 	roundCounter ++;
 }
+ console.log (winner)
+
+alert ( "the winner of 5 games was " + winner);
