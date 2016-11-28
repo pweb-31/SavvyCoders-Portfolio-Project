@@ -1,0 +1,24 @@
+div{
+
+  .adjective{
+    color: orange;
+    font-size: 200%;
+    font-family: sans-serif;
+  }
+
+  .noun{
+    color: hotpink;
+    font-size: 100%;
+    font-weight: bold;
+  }
+
+  .verb{
+    color: brown;
+    font-style: italic;
+    font-family: cursive;
+  }
+
+  .adverb{
+    font-style: oblique;
+  }
+}
