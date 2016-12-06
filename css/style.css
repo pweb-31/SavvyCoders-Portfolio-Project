@@ -163,3 +163,8 @@ table {
 		font-style:italic;
 		font-size: 100px;
 	}
+
+	.makeOrange{
+		color: orange;
+		font-style: italic;
+	}
