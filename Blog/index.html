@@ -14,14 +14,10 @@
     <h1>Blogging with Patrick</h1>
     <h2>An architect learns web development</h2>
   </header>
-    <nav id=sidebar>
-      <li><a href="../media/index.html">Media</a></li>
-      <li><a href="../projects/index.html">Projects</a></li>
-      <li><a href="mailto:patrick@aeshdesign.com">Contact Me</a></li>
-      <li><a href="../index.html">Home</a></li>
-    </ul>
-  </nav>
+
   </div>
+<content>
+
   <div class='container'>
     <header class=blog-heading>
       11/03/2016
@@ -41,35 +37,13 @@
     </p>
     </section>
   </div>
-  <div class='content'>
-    <header class=blog-heading>
-      11/03/2016
-    </header>
-    <section class="post">
-    <p>
-      Thanks for visiting my blog.  I am learning web development and this site will update while I go through the class.  Any feedback on my projects is appreciated.  Thanks!
-    </p>
-    </section>
+
+  <input type="text" name="post title" value="Post Title" class="blog-title" size="50" required>
   <hr>
-    <header class=blog-heading>
-      11/07/2016
-    </header>
-    <section class="post">
-    <p>
-      Last week we talked a lot about HTML, CSS and stylesheets.  This latest transformation of my site is from me playing around with different properties while assigning the fewest number of style requirements possible.
-    </p>
-    </section>
-  </div>
-  <hr>
-    <header class=blog-heading>
-      11/07/2016
-    </header>
-    <section class="post">
-    <p>
-      Last week we talked a lot about HTML, CSS and stylesheets.  This latest transformation of my site is from me playing around with different properties while assigning the fewest number of style requirements possible.
-    </p>
-    </section>
-  </div>
+  <textarea name="poster" class="blog-poster" rows='8' cols='100'></textarea>
+  <button type="button" name='post-blog' class='submit-post'>SavePost</button>
+
+</content>
   <footer>
     <ul id="nav-list">
       <li><a href="../media/index.html">Media</a></li>
@@ -78,5 +52,8 @@
       <li><a href="../index.html">Home</a></li>
     </ul>
   </footer>
+
+  <script type= "text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src='site.js' charset="utf-8"></script>
 </body>
 </html>
